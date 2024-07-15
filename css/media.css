@@ -1,0 +1,233 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+ /* header */
+ header{
+    padding: 10px 0px;
+  }
+ .menu ul li a{
+    padding: 0% !important;
+    padding-top: 10px !important;
+    font-size: 20px;
+    text-align: end;
+}
+/* selider */
+.slider {
+  padding-bottom: 50px;
+}
+.slider_text {
+  margin-top: 0px;
+}
+.slider_text h1 {
+  font-size: 28px;
+}
+.slider_text h2 {
+  margin: 10px 0px;
+}
+.slider_text p {
+  margin-bottom: 15px !important;
+}
+.slider_icon ul li a i {
+  padding-right: 10px !important;
+  font-size: 38px;
+}
+.c_ind {
+  bottom: -45px;
+}
+.c_ind [data-bs-target] {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+/* feature */
+.feature {
+  padding: 50px 0px;
+}
+.f_item {
+  margin-top: 40px;
+}
+.title {
+  font-size: 28px;
+}
+.text {
+  padding-top: 10px;
+  font-size: 18px;
+}
+.f_i_text{
+  padding-right: 0px;
+  text-align: center;
+}
+.f_i i {
+  font-size: 38px;
+  padding-bottom: 10px;
+}
+.f_i_text p{
+  padding-top: 5px;
+}
+/* control */
+.contact {
+  padding: 50px 0px 0px;
+  background-color: #010101;
+}
+.c_input {
+  height: 40px;
+}
+.c_btn {
+  margin-top: 10px;
+  height: 45px;
+}
+.c_icon ul li a i {
+  font-size: 38px;
+  padding-right: 10px;
+}
+/* fotter */
+.fotter {
+  padding: 40px 0px 60px;
+}
+address{
+  text-align: center;
+ }
+ .fotter_item p{
+  text-align: center;
+ }
+ .fotter_item {
+  margin-top: 20px;
+}
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+ /* header */
+ header {
+  padding: 15px 0px;
+}
+ .menu ul li a{
+    padding: 0% !important;
+    padding-top: 10px !important;
+    text-align: end;
+}
+/* selider */
+.slider {
+  padding-bottom: 60px;
+}
+.slider_text {
+  margin-top: 0px;
+}
+.slider_text h2 {
+  margin: 15px 0px;
+}
+.slider_text p {
+  margin-bottom: 20px !important;
+}
+.slider_icon ul li a i {
+  padding-right: 20px;
+  font-size: 40px;
+}
+.c_ind {
+  bottom: -50px;
+}
+/* feature */
+.feature {
+  padding: 70px 0px;
+}
+.f_item {
+  margin-top: 50px;
+}
+.f_i_text{
+  padding-right: 0px;
+  text-align: center;
+}
+.f_i i {
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+.f_i_text p{
+  padding-top: 5px;
+}
+/* control */
+.contact {
+  padding: 70px 0px 0px;
+  background-color: #010101;
+}
+.c_input {
+  height: 45px;
+}
+.c_btn {
+  margin-top: 15px;
+  height: 45px;
+}
+.c_icon ul li a i {
+  font-size: 40px;
+  padding-right: 20px !important;
+}
+/* fotter */
+.fotter {
+  padding: 50px 0px 70px;
+}
+address{
+  text-align: center;
+ }
+ .fotter_item p{
+  text-align: center;
+ }
+ .fotter_item {
+  margin-top: 40px;
+}
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+ /* header */
+ .menu ul li a{
+    padding: 0% !important;
+    padding-top: 10px !important;
+    text-align: end;
+}
+/* selider */
+.slider {
+  padding-bottom: 80px;
+}
+.slider_text {
+  margin-top: 0px;
+}
+.c_ind {
+  bottom: -60px;
+}
+/* feature */
+.feature {
+  padding: 80px 0px;
+}
+.f_i_text{
+  padding-right: 10px;
+}
+/* contact */
+.contact {
+  padding: 80px 0px 0px;
+  background-color: #010101;
+}
+/* fotter */
+.fotter {
+  padding: 50px 0px 80px;
+}
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  /* feature */
+  .f_i_text {
+    padding-right: 20px;
+}
+/* fotter */
+.fotter {
+  padding: 50px 0px 90px;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  
+ }
+ 
+/* Extra extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  
+ }
